@@ -1,0 +1,9 @@
+configMapGenerator:
+- name: redis-pri-config
+  files:
+  - redis-pri.conf
+- name: redis-cache-config
+  files:
+  - redis-cache.conf
+resources:
+- redis-pod.yaml
